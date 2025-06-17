@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snake Water Gun Game</title>
+  <link rel="stylesheet" href="code.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Snake Water Gun Game</h1>
+    <div class="choices">
+      <button onclick="playGame('s')">
+        <img src="https://media.istockphoto.com/id/158895551/photo/cobra-snake.jpg?s=612x612&w=0&k=20&c=vlj8SHac4EPM9x22qPSB7Bsxqp0k5qoNrQIykOc2RBw=" alt="Snake" width="100"><br>
+        Snake (s)
+      </button>
+      <button onclick="playGame('w')">
+        <img src="https://static.sciencelearn.org.nz/images/images/000/002/343/full/Water20161110-17124-gv7a3b.jpg?1674168038" alt="water" width="100"><br>
+        Water (w)
+      </button>
+      <button onclick="playGame('g')">
+        <img src="https://t3.ftcdn.net/jpg/03/21/62/56/360_F_321625657_rauGwvaYjtbETuwxn9kpBWKDYrVUMdB4.jpg" alt="Gun" width="100"><br>
+        Gun (g)
+      </button>
+    </div>
+
+    <div class="result">
+      <p id="comp-choice">Computer chose: </p>
+      <p id="your-choice">You chose: </p>
+      <h2 id="result-text">Result: </h2>
+    </div>
+  </div>
+
+  <script src="code.js"></script>
+</body>
+</html>
